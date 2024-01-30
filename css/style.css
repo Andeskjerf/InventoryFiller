@@ -15,3 +15,17 @@
 	height: 100%;
 	float: right;
 }
+
+.item {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+#ground-items {
+	display: flex;
+}
+
+#inventory-items {
+	display: flex;
+}
