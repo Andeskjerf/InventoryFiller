@@ -1,0 +1,17 @@
+#container {
+	display: flex;
+	height: 100%;
+}
+
+#ground {
+	background-color: brown;
+	width: 65%;
+	height: 100%;
+}
+
+#inventory {
+	background-color: gray;
+	width: 35%;
+	height: 100%;
+	float: right;
+}
