@@ -1,47 +1,63 @@
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title>Inventory Filler</title>
-  </head>
-  <body>
-    <script src="js/main.js"></script>
-    <div id="container">
-      <div id="ground">
-        <h3>Ground</h3>
-                
-        <div id="ground-items">
-          <div>
-            <div id="gItem1" class="item" onclick="pickUpItem1()"> BILDE.PNG </div>
-            <div id="gItem2" class="itemMid"></div>
-            <div id="gItem3" class="item"></div>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <title>Inventory Filler</title>
+</head>
+
+<body>
+  
+  <div id="container">
+    <div id="ground">
+      <h3>Ground</h3>
+      <div id="ground-items">
+        <div>
+          <div id="gItem1" class="item" onclick="pickUpItem1()">
+            <img src="assets/bagofholding.gif"/>
           </div>
-          <div>
-            <div id="gItem4" class="item"></div>
-            <div id="gItem5" class="itemMid"></div>
-            <div id="gItem6" class="item"></div>
+          <div id="gItem2" class="itemMid" onclick="pickUpItem2()">
+            <img src="assets/bagofholding.gif"/>
           </div>
-          <div>
-            <div id="gItem7" class="item"></div>
-            <div id="gItem8" class="itemMid"></div>
-            <div id="gItem9" class="item"></div>
+          <div id="gItem3" class="item" onclick="pickUpItem3()">
+            <img src="assets/bagofholding.gif"/>
           </div>
+          
         </div>
-      </div>
-      <div id="inventory">
-        <h3>Inventory</h3>
-        <div id="inventory-items">
-          <div>
-            <div id="iItem1" class="item" ></div><br>
-            <div id="iItem2" class="itemMid"></div><br>
-            <div id="iItem3" class="item"></div><br>
+        <div>
+          <div id="gItem4" class="item"></div>
+          <div id="gItem5" class="itemMid" onclick="pickUpItem4()">
+            <img src="assets/bagofholding.gif"/>
           </div>
-          <div>
-            <div id="iItem4" class="item"></div><br>
-            <div id="iItem5" class="itemMid"></div><br>
-            <div id="iItem6"class="item"></div><br>
+          <div id="gItem6" class="item" onclick=""></div>
+        </div>
+        <div>
+          <div id="gItem7" class="item" onclick="pickUpItem5()">
+            <img src="assets/bagofholding.gif"/>
+          </div>
+          <div id="gItem8" class="itemMid" onclick=""></div>
+          <div id="gItem9" class="item" onclick="pickUpItem6()">
+            <img src="assets/bagofholding.gif"/>
           </div>
         </div>
       </div>
     </div>
-  </body>
+    <div id="inventory">
+      <h3>Inventory</h3>
+      <div id="inventory-items">
+        <div>
+          <div id="iItem1" class="item"></div><br>
+          <div id="iItem2" class="itemMid"></div><br>
+          <div id="iItem3" class="item"></div><br>
+        </div>
+        <div>
+          <div id="iItem4" class="item"></div><br>
+          <div id="iItem5" class="itemMid"></div><br>
+          <div id="iItem6" class="item"></div><br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
