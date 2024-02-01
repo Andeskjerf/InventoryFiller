@@ -45,3 +45,7 @@ function pickUpItem6(shield) {
     document.getElementById('iItem6').innerHTML = /*HTML*/
     `<img src="assets/shield.png"/>`
 }
+function showinv(){
+    document.getElementById('inventoryop').innerHTML = tittelitei
+    document.getElementById('inventoryop').classList.toggle('hidecontent')
+}
